@@ -1,7 +1,7 @@
 # [START app_yaml]
 
 runtime: nodejs18
-service: my-react-app # prefix/subdomain of the bucket specific to project and environment
+service: default # prefix/subdomain of the bucket specific to project and environment
 
 handlers:
   - url: /static/js/(.*)
